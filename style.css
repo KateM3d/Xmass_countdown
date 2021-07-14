@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/santa.jpeg);
+    background-image: url(img/santa.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #A20202;
@@ -41,4 +41,42 @@ h1 {
 h3 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red {
+    font-size: 60px;
+    border: none;
+    font-family: 'Staatliches' cursive;
+    color: red;
+}
+
+button {
+    margin-left: 150px;
+    padding: 25px;
+    border: none;
+    border-radius: 50%;
+}
+
+img {
+    width: 70px;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
 }
